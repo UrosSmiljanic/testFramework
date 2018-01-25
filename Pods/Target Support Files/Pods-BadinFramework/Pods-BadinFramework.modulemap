@@ -1,0 +1,6 @@
+framework module Pods_BadinFramework {
+  umbrella header "Pods-BadinFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

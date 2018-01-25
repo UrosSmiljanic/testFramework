@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserDataView" customModule="genericappios" customModuleProvider="target">
+            <connections>
+                <outlet property="cardNumber" destination="oLi-Xm-GHW" id="WJf-T5-fv0"/>
+                <outlet property="cardStatus" destination="oMq-FA-9Ko" id="rEs-PL-384"/>
+                <outlet property="cardStatusLabel" destination="DZe-PG-qqJ" id="Spi-gB-iAp"/>
+                <outlet property="memberRank" destination="Uls-z5-tbQ" id="tBR-ET-f2f"/>
+                <outlet property="memberSince" destination="MtN-OJ-EQX" id="EVN-II-0CW"/>
+                <outlet property="rankLabel" destination="uIS-Rt-8Pa" id="wLn-t1-2ig"/>
+                <outlet property="userName" destination="r2O-zu-kpL" id="ySO-Om-nZT"/>
+                <outlet property="userType" destination="1PA-hx-kXh" id="CCJ-p3-f8r"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Uqi-g1-mAc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="center" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="520" height="547"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="bq8-FE-ox7">
+                    <rect key="frame" x="10" y="67" width="500" height="3"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2O-zu-kpL">
+                    <rect key="frame" x="10" y="36" width="500" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CARD NUMBER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niu-Sc-OL7">
+                    <rect key="frame" x="10" y="114" width="500" height="9"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="321321321321312" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLi-Xm-GHW">
+                    <rect key="frame" x="10" y="121" width="500" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATUS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZe-PG-qqJ">
+                    <rect key="frame" x="10" y="155" width="500" height="9"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In use" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMq-FA-9Ko">
+                    <rect key="frame" x="10" y="164" width="500" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEMBER SINCE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6b7-Wg-lqF">
+                    <rect key="frame" x="10" y="187" width="500" height="9"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09/07/2015" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtN-OJ-EQX">
+                    <rect key="frame" x="10" y="195" width="500" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RANK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIS-Rt-8Pa">
+                    <rect key="frame" x="10" y="232" width="500" height="9"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOLsD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uls-z5-tbQ">
+                    <rect key="frame" x="10" y="249" width="500" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standard Cardholder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1PA-hx-kXh">
+                    <rect key="frame" x="10" y="78" width="500" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.99607843137254903" green="0.80784313725490198" blue="0.078431372549019995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Uls-z5-tbQ" firstAttribute="top" secondItem="uIS-Rt-8Pa" secondAttribute="bottom" constant="8" symbolic="YES" id="3bk-0f-Qxn"/>
+                <constraint firstItem="1PA-hx-kXh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7cD-9G-QJd"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="oMq-FA-9Ko" secondAttribute="leading" id="ACe-qx-PrS"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="Uls-z5-tbQ" secondAttribute="leading" id="Dqt-xN-ha5"/>
+                <constraint firstItem="MtN-OJ-EQX" firstAttribute="top" secondItem="oMq-FA-9Ko" secondAttribute="bottom" constant="10" id="GpC-RO-JaI"/>
+                <constraint firstItem="6b7-Wg-lqF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="NMZ-QC-QqG"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="1PA-hx-kXh" secondAttribute="leading" id="OUv-jb-CL3"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="DZe-PG-qqJ" secondAttribute="leading" id="R35-pA-6tZ"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="RWM-2f-HOy"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="6b7-Wg-lqF" secondAttribute="leading" id="TFk-zN-TfJ"/>
+                <constraint firstItem="oMq-FA-9Ko" firstAttribute="top" secondItem="DZe-PG-qqJ" secondAttribute="bottom" id="TGm-f2-2WO"/>
+                <constraint firstItem="oMq-FA-9Ko" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="VID-33-wgB"/>
+                <constraint firstItem="DZe-PG-qqJ" firstAttribute="top" secondItem="oLi-Xm-GHW" secondAttribute="bottom" constant="13" id="YmN-EZ-4WN"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="oLi-Xm-GHW" secondAttribute="leading" id="aa9-rW-92K"/>
+                <constraint firstItem="6b7-Wg-lqF" firstAttribute="top" secondItem="oMq-FA-9Ko" secondAttribute="bottom" constant="2" id="adi-F7-j8k"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="uIS-Rt-8Pa" secondAttribute="leading" id="cU0-DU-ip4"/>
+                <constraint firstItem="oLi-Xm-GHW" firstAttribute="top" secondItem="1PA-hx-kXh" secondAttribute="bottom" constant="22" id="can-b0-bHL"/>
+                <constraint firstItem="DZe-PG-qqJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fI6-PY-jC6"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="bq8-FE-ox7" secondAttribute="leading" id="flt-K9-FoI"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="niu-Sc-OL7" secondAttribute="leading" id="gAu-6a-I4s"/>
+                <constraint firstItem="bq8-FE-ox7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gRg-p6-wkD"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="iyZ-8v-CA4"/>
+                <constraint firstItem="uIS-Rt-8Pa" firstAttribute="top" secondItem="MtN-OJ-EQX" secondAttribute="bottom" constant="16" id="jrL-BO-fuR"/>
+                <constraint firstItem="bq8-FE-ox7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jzc-sg-yCx"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="leading" secondItem="MtN-OJ-EQX" secondAttribute="leading" id="kRm-Lh-5dg"/>
+                <constraint firstItem="niu-Sc-OL7" firstAttribute="top" secondItem="1PA-hx-kXh" secondAttribute="bottom" constant="15" id="ko4-eC-bvE"/>
+                <constraint firstItem="Uls-z5-tbQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mHY-kI-u3Q"/>
+                <constraint firstItem="1PA-hx-kXh" firstAttribute="top" secondItem="bq8-FE-ox7" secondAttribute="bottom" constant="8" symbolic="YES" id="mp4-h8-HMJ"/>
+                <constraint firstItem="bq8-FE-ox7" firstAttribute="top" secondItem="r2O-zu-kpL" secondAttribute="bottom" constant="10" id="myI-xx-YlO"/>
+                <constraint firstItem="MtN-OJ-EQX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oJF-RJ-wAg"/>
+                <constraint firstItem="uIS-Rt-8Pa" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oe6-Xk-6cY"/>
+                <constraint firstItem="niu-Sc-OL7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uaG-Ni-Wa5"/>
+                <constraint firstItem="oLi-Xm-GHW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="v8W-gg-sTS"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wec-Ag-Jf6"/>
+                <constraint firstItem="r2O-zu-kpL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="36" id="zeZ-mL-lgT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="85" y="-157"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="separator" width="58" height="3"/>
+    </resources>
+</document>
